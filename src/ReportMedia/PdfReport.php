@@ -1,8 +1,8 @@
 <?php
 
-namespace Jimmyjs\ReportGenerator\ReportMedia;
+namespace Coolsam\ReportGenerator\ReportMedia;
 
-use Jimmyjs\ReportGenerator\ReportGenerator;
+use Coolsam\ReportGenerator\ReportGenerator;
 
 class PdfReport extends ReportGenerator
 {

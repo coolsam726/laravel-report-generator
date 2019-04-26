@@ -1,10 +1,10 @@
 <?php
 
-namespace Jimmyjs\ReportGenerator\ReportMedia;
+namespace Coolsam\ReportGenerator\ReportMedia;
 
 use League\Csv\Writer;
 use App, Closure, Exception;
-use Jimmyjs\ReportGenerator\ReportGenerator;
+use Coolsam\ReportGenerator\ReportGenerator;
 
 class CSVReport extends ReportGenerator
 {

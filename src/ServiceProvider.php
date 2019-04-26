@@ -1,10 +1,10 @@
 <?php
 
-namespace Jimmyjs\ReportGenerator;
+namespace Coolsam\ReportGenerator;
 
-use Jimmyjs\ReportGenerator\ReportMedia\CSVReport;
-use Jimmyjs\ReportGenerator\ReportMedia\PdfReport;
-use Jimmyjs\ReportGenerator\ReportMedia\ExcelReport;
+use Coolsam\ReportGenerator\ReportMedia\CSVReport;
+use Coolsam\ReportGenerator\ReportMedia\PdfReport;
+use Coolsam\ReportGenerator\ReportMedia\ExcelReport;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
 class ServiceProvider extends IlluminateServiceProvider
@@ -61,9 +61,9 @@ class ServiceProvider extends IlluminateServiceProvider
     {
         if (class_exists('Illuminate\Foundation\AliasLoader')) {
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('PdfReport', \Jimmyjs\ReportGenerator\Facades\PdfReportFacade::class);
-            $loader->alias('ExcelReport', \Jimmyjs\ReportGenerator\Facades\ExcelReportFacade::class);
-            $loader->alias('CSVReport', \Jimmyjs\ReportGenerator\Facades\CSVReportFacade::class);
+            $loader->alias('PdfReport', \Coolsam\ReportGenerator\Facades\PdfReportFacade::class);
+            $loader->alias('ExcelReport', \Coolsam\ReportGenerator\Facades\ExcelReportFacade::class);
+            $loader->alias('CSVReport', \Coolsam\ReportGenerator\Facades\CSVReportFacade::class);
         }
     }
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Jimmyjs\ReportGenerator\ReportMedia;
+namespace Coolsam\ReportGenerator\ReportMedia;
 
 use App, Closure;
-use Jimmyjs\ReportGenerator\ReportGenerator;
+use Coolsam\ReportGenerator\ReportGenerator;
 
 class ExcelReport extends ReportGenerator
 {

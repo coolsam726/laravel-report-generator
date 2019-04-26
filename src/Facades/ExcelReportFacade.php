@@ -1,11 +1,11 @@
 <?php
 
-namespace Jimmyjs\ReportGenerator\Facades;
+namespace Coolsam\ReportGenerator\Facades;
 
 use Illuminate\Support\Facades\Facade as IlluminateFacade;
 
 /**
- * @see \Jimmyjs\ReportGenerator\ReportMedia\ExcelReport
+ * @see \Coolsam\ReportGenerator\ReportMedia\ExcelReport
  */
 class ExcelReportFacade extends IlluminateFacade
 {
