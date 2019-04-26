@@ -6,7 +6,7 @@ This package provides a simple pdf, csv & excel report generators to speed up yo
 ## Installation
 Add package to your composer:
 
-    composer require jimmyjs/laravel-report-generator
+    composer require coolsam726/laravel-report-generator
 
 If you are running Laravel > 5.5 that's all you need to do. If you are using Laravel < 5.5 add the ServiceProvider to the providers array in config/app.php
 
