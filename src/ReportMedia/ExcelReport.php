@@ -17,6 +17,7 @@ class ExcelReport extends ReportGenerator
 		return $this;
 	}
 
+	//TODO: UPDATE THIS CLASS TO USE THE NEW maatwebsite/excel 3.1 . All the methods herein are deprecated.
 	public function make($filename, $simpleVersion = false)
 	{
 		if ($simpleVersion) {
